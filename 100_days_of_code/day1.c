@@ -1,6 +1,13 @@
 # include <stdio.h>
+// Sum of two numbers
 int main()
 {
-    printf("Day 1 of 100 days of code!\n");
+    int sum;
+    int a, b;
+    printf( "Enter a and b:");
+    scanf( "%d%d", &a, &b );
+
+    sum = a + b;
+    printf("%d", sum);
     return 0;
 }
